@@ -1,6 +1,6 @@
 <!-- pages/accueil.php -->
-    <!-- Inclure la barre de navigation -->
-    <?php include '../components/navbar.php'; ?>
+  
+<?php include '../components/navbar.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +9,7 @@
     <meta name="description" content="Site de Maxim Armrengol Casino">
 </head>
 <body>
+
     <h1>MAXIM ARMENGOL CASINO</h1>
     <p>Le contenu pertinent et attractif de votre page d'accueil.</p>
     <p>Vous pouvez ajouter du texte, des images et d'autres éléments pour décrire votre entreprise, vos produits ou vos services de manière concise et attrayante.</p>

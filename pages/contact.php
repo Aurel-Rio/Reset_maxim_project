@@ -2,6 +2,7 @@
     <!-- Inclure la barre de navigation -->
     <?php include '../components/navbar.php'; ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
