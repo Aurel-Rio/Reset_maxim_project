@@ -11,10 +11,10 @@
 
     // Définir les liens de navigation avec classe active
     $links = [
-        '/Maxim' => 'Accueil',
-        '/Maxim/gallery' => 'Galerie',
-        '/Maxim/expositions' => 'Expositions',
-        '/Maxim/contact' => 'Contact',
+        '/Maxim/' => 'Accueil',
+        '/Maxim/gallery/' => 'Galerie',
+        '/Maxim/expositions/' => 'Expositions',
+        '/Maxim/contact/' => 'Contact',
     ];
     ?>
 

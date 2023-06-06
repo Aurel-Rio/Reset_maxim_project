@@ -13,13 +13,15 @@
     // Récupérer l'URL actuelle
     $request = rtrim($_SERVER['REQUEST_URI'], '/');
     var_dump($request);
+
     // Définir les routes
-    $routes = [
-        '/Maxim' => 'pages/accueil.php',
-        '/Maxim/gallery' => 'pages/gallery.php',
-        '/Maxim/expositions' => 'pages/expositions.php',
-        '/Maxim/contact' => 'pages/contact.php',
-    ];
+    // Définir les routes
+$routes = [
+    '/Maxim/' => 'pages/accueil.php',
+    '/Maxim/gallery/' => 'pages/gallery.php',
+    '/Maxim/expositions/' => 'pages/expositions.php',
+    '/Maxim/contact/' => 'pages/contact.php',
+];
 
     // Vérifier si la route existe dans le tableau
     if (array_key_exists($request, $routes)) {
